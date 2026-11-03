@@ -7088,5 +7088,28 @@ iframe {
   .career-pathways-grid {
     grid-template-columns: 1fr !important;
   }
+
+  .audience-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .know-more-img {
+    max-height: 420px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .tuition-table tbody tr.total {
+    background: rgba(255, 230, 109, 0.16);
+    border-color: rgba(255, 230, 109, 0.55);
+  }
+
+  .tuition-table tbody tr.total td {
+    font-weight: 800;
+  }
+}
+
+.tuition-table tbody tr.total td {
+  font-weight: 800;
 }
 
